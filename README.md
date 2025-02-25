@@ -1,7 +1,7 @@
 # Simulating Quantum Communications: A Beginner's Tutorial
 
 This repository contains a series of quantum entanglement simulations using Markov processes for tracking errors. Each folder corresponds to an article in our tutorial series on simulating quantum entanglements for beginners. 
-We currently have one article, with more to follow.
+We currently have [one article](https://medium.com/@amar.abane.phd/simulating-quantum-communications-a-beginners-tutorial-part-i-03224c2a4108), with more to follow.
 
 ## Overview
 
@@ -59,8 +59,8 @@ To run the simulation and generate the plots for the first article:
 
 ## Medium Blog Tutorial
 
-For a detailed explanation of the simulation methodology, including the underlying quantum communication principles and a step-by-step code walkthrough, check out the full tutorial series on Medium:  
-[Simulating Quantum Communications: A Beginner's Tutorial – Part I](https://medium.com/your-blog-link).
+For a detailed explanation of the simulation methodology, including the underlying quantum communication principles and a step-by-step code walkthrough, check out the full tutorial series:  
+- [Simulating Quantum Communications: A Beginner's Tutorial – Part I](https://medium.com/@amar.abane.phd/simulating-quantum-communications-a-beginners-tutorial-part-i-03224c2a4108).
 
 ## Contributing
 

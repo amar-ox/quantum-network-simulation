@@ -42,7 +42,7 @@ def run_simulation(L, simulation_time=1):
     emission_z_error_rate = 0.01
 
     f_source = 1e5  # source repetition rate (photons/s)
-    t_classical = half_distance_m / v_fiber   # BSA-to-Node ack time
+    t_classical = half_distance_m / v_fiber   # BSA-to-Node ack travel time
     t_photon = half_distance_m / v_fiber      # Node-to-BSA photon travel time
     t_qubit_reset = 1e-6                      # time to reset qubit
 
@@ -141,13 +141,16 @@ def run_simulation(L, simulation_time=1):
                     if random.random() < detection_efficiency:
                         if random.random() >= dark_count_probability:
                             dt_entanglements += 1
-                            
+
                             # Project errors from the photons to the memories
                             m_new_qubit_A = project_qubit_vector(photon_A, qubit_A['m_state'])
                             m_new_qubit_B = project_qubit_vector(photon_B, qubit_B['m_state'])
                             state = get_bell_state(get_qubit_state(m_new_qubit_A), get_qubit_state(m_new_qubit_B))
+
                             if state in states:
                                 states[state] += 1
+
+                            # Note: optics-based BSA can only distinguish Phi and Psi
                             # Update memories
                             qubit_A['m_state'] = m_new_qubit_A
                             qubit_A['age'] = 1

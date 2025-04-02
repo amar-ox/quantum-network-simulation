@@ -10,10 +10,10 @@ def run_simulation(L, simulation_time=1):
     memory_y_err_rate = 0.01            # per second
     memory_z_err_rate = 0.01            # per second
     memory_excitation_rate = 0.0        # qubit α|0> + β|0> forced to |1>
-    memory_relaxation_rate = 0.0        # qubit loses energy to |0>
+    memory_relaxation_rate = 0.0        # qubit loses energy to |0> (Amplitude damping)
 
     num_qubits = 10                     # Number of qubits per node
-    t_cutoff = 500                      # timesteps
+    t_cutoff = 500                      # timesteps (simplified T1)
 
     # Quantum channel parameters (L is in km)
     half_distance = int(L / 2)        # distance from node to BSA in km

@@ -1,7 +1,8 @@
 # Simulating Quantum Communications: A Beginner's Tutorial
 
-This repository contains a series of quantum entanglement simulations using Markov processes for tracking errors. Each folder corresponds to an article in our tutorial series on simulating quantum entanglements for beginners. 
-We currently have [one article](https://medium.com/@amar.abane.phd/simulating-quantum-communications-a-beginners-tutorial-part-i-03224c2a4108), with more to follow.
+This repository contains a series of quantum entanglement simulations using Markov processes for tracking errors. Each folder corresponds to an article in our tutorial series on simulating quantum entanglements for beginners.
+
+We currently have two articles. See below.
 
 ## Overview
 
@@ -10,6 +11,7 @@ The simulations model entanglement distribution between two quantum nodes using 
 - **Bell State Generation:** Simulation of photon emissions, channel losses, memory errors, and Bell state measurement.
 - **Distance Variation:** Investigation of how increasing channel distances affect the fidelity of the generated (Phi+) state.
 - **Performance Metrics:** Analysis and plotting of fidelity, full Bell state ratios, entanglement generation rate, and entanglement generation probability.
+- **Entanglement Purification:** Various circuits and schedules for purification.
 
 ## Repository Contents
 
@@ -17,6 +19,9 @@ Each folder corresponds to an article in the tutorial series:
 
 - **`article1`**  
   Contains a simulation demonstrating how increasing channel distances impact the fidelity of generated Bell states, as well as the entanglement generation rate and probability.
+
+- **`article2`**  
+  Contains a simulation demonstrating how various purification circuits impact the fidelity of generated Bell states over increasing channel distances.
 
 *(Additional articles will be added in separate folders as the series progresses.)*
 
@@ -43,7 +48,7 @@ Each folder corresponds to an article in the tutorial series:
 
 ## Usage
 
-To run the simulation and generate the plots for the first article:
+To run the simulation and generate the plots for the desired article (e.g., article1):
 
 1. **Navigate to the Article Folder:**
 

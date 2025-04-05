@@ -62,10 +62,11 @@ To run the simulation and generate the plots for the desired article (e.g., arti
    python simulations.py
    ```
 
-## Medium Blog Tutorial
+## Blog Tutorial
 
 For a detailed explanation of the simulation methodology, including the underlying quantum communication principles and a step-by-step code walkthrough, check out the full tutorial series:  
 - [Simulating Quantum Communications: A Beginner's Tutorial – Part I](https://medium.com/@amar.abane.phd/simulating-quantum-communications-a-beginners-tutorial-part-i-03224c2a4108).
+- [Simulating Quantum Communications: A Beginner’s Tutorial — Part II (Entanglement Purification)](https://medium.com/@amar.abane.phd/simulating-quantum-communications-a-beginners-tutorial-part-ii-entanglement-purification-bedec75bf5a5)
 
 ## Contributing
 

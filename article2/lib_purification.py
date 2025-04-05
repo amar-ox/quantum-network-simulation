@@ -204,7 +204,6 @@ def do_purification(circuit_string, pairs):
         The last purified pair
     """
 
-    # just to check:
     qubit_A1, qubit_B1 = pairs[0]
     id_first_pair = (qubit_A1['id'], qubit_B1['id'])
 
@@ -233,7 +232,6 @@ def do_purification(circuit_string, pairs):
         qubit_A1['purified'] = True
         qubit_B1['purified'] = True
 
-        # just to check:
         id_last_pair = (qubit_A1['id'], qubit_B1['id'])
         if id_first_pair != id_last_pair:
             raise ValueError("Purified pair is not the first pair.")

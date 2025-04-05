@@ -59,7 +59,7 @@ To run the simulation and generate the plots for the desired article (e.g., arti
 2. **Run the Simulation Script:**
 
    ```bash
-   python simulation.py
+   python simulations.py
    ```
 
 ## Medium Blog Tutorial

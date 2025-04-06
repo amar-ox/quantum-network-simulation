@@ -1,5 +1,9 @@
 # Simulating Quantum Communications: A Beginner's Tutorial
 
+<p align="center">
+  <img src="quantum_link.gif" alt="Purification demo" />
+</p>
+
 This repository contains a series of quantum entanglement simulations using Markov processes for tracking errors. Each folder corresponds to an article in our tutorial series on simulating quantum entanglements for beginners.
 
 We currently have two articles. See below.
